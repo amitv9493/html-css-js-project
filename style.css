@@ -1,5 +1,5 @@
 body {
-    font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 .logo h1 {
   font-size: 36px;
@@ -39,12 +39,101 @@ body {
 
 .header {
   margin-top: 20px;
+  min-height: 60px;
 }
 
 .selected-products {
   text-align: right;
 }
 
-.search-product input:focus{
-    outline: none;
+.search-product input:focus {
+  outline: none;
+}
+
+h4 {
+  display: inline-block;
+  margin-left: 40px;
+  margin-right: 40px;
+  font-weight: 500;
+}
+
+.list-header {
+  background-color: #d19c97;
+}
+
+.list-header span {
+  float: right;
+  margin: 25px;
+}
+
+.banner-area ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  border: 1px solid #ddd;
+}
+
+.banner-area li {
+  border-bottom: 1px solid #ddd;
+  padding: 10px 40px;
+  font-weight: 300;
+}
+
+.banner-area ul li a {
+  text-decoration: none;
+  color: #333;
+}
+
+.shop-menu {
+  /* border: 2px solid black; */
+  display: flex;
+  /* justify-content: space-between; */
+}
+
+.left-menu-list{
+    width: 70%;
+
+}
+
+.right-menu-list{
+    width: 30%;
+}
+
+.shop-menu ul {
+  display: flex;
+  margin: px;
+  padding: 0;
+  list-style-type: none;
+}
+
+.shop-menu ul li {
+    min-width: 75px;
+    padding: 20px;
+}
+
+.shop-menu ul li a{
+    padding: 18px;
+    color: #333;
+    text-decoration: none;
+}
+
+.shop-menu ul li a:hover{
+    color:#d19c97
+}
+
+
+
+/* MOST IMPORTANT ==> HOW TO CREATE A DROPDOWN WITHOUT JAVASCRIPT */
+.dropdown-head:hover ul.dropdown{
+    display: block;
+    margin: 0px;
+
+    
+}
+
+.shop-menu ul.dropdown{
+    display: none;
+    border: 1px solid #ddd;
+    position: absolute;
+    box-shadow: #ddd 1px 1px 4px;
 }
