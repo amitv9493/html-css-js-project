@@ -1,0 +1,50 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+.logo h1 {
+  font-size: 36px;
+  margin: 0;
+  font-weight: 300;
+}
+
+.logo h1 span:first-of-type {
+  padding: 0px 10px;
+  border: 1px solid #ddd;
+  margin-right: 5px;
+  color: #d19c97;
+}
+
+.search-product input {
+  box-sizing: border-box;
+  width: 70%;
+  height: 40px;
+  border-radius: 0px;
+  padding: 10px;
+  font-size: 18px;
+  color: #666;
+  border: 1px solid #ddd;
+  border-right: none;
+}
+
+.search-product button {
+  box-sizing: border-box;
+  height: 40px;
+  border-radius: 0;
+  border: 1px solid #ddd;
+  font-size: 15px;
+  color: #d19c97;
+  background-color: #fff;
+  margin-left: -6px;
+}
+
+.header {
+  margin-top: 20px;
+}
+
+.selected-products {
+  text-align: right;
+}
+
+.search-product input:focus{
+    outline: none;
+}
