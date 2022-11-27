@@ -85,18 +85,19 @@ h4 {
 }
 
 .shop-menu {
+  /* width: 915px; */
+  justify-content: space-between;
   /* border: 2px solid black; */
   display: flex;
-  /* justify-content: space-between; */
 }
 
-.left-menu-list{
-    width: 70%;
-
+.left-menu-list {
+  width: 70%;
 }
 
-.right-menu-list{
-    width: 30%;
+.right-menu-list {
+  width: 30%;
+  direction: rtl;
 }
 
 .shop-menu ul {
@@ -107,33 +108,74 @@ h4 {
 }
 
 .shop-menu ul li {
-    min-width: 75px;
-    padding: 20px;
+  min-width: 75px;
+  padding: 10px;
 }
 
-.shop-menu ul li a{
-    padding: 18px;
-    color: #333;
-    text-decoration: none;
+.shop-menu ul li a {
+  padding: 18px;
+  color: #333;
+  text-decoration: none;
 }
 
-.shop-menu ul li a:hover{
-    color:#d19c97
+.shop-menu ul li a:hover {
+  color: #d19c97;
 }
-
-
 
 /* MOST IMPORTANT ==> HOW TO CREATE A DROPDOWN WITHOUT JAVASCRIPT */
-.dropdown-head:hover ul.dropdown{
-    display: block;
-    margin: 0px;
-
-    
+.dropdown-head:hover ul.dropdown {
+  display: block;
+  margin: 0px;
 }
 
-.shop-menu ul.dropdown{
-    display: none;
-    border: 1px solid #ddd;
-    position: absolute;
-    box-shadow: #ddd 1px 1px 4px;
+.shop-menu ul.dropdown {
+  display: none;
+  border: 1px solid #ddd;
+  position: absolute;
+  box-shadow: #ddd 1px 1px 4px;
+}
+
+.banner img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.banner {
+  position: relative;
+  height: 400px;
+  float: left;
+  width: 100%;
+  /* height: 100%; */
+}
+.banner-text a {
+  color: black;
+  text-decoration: none;
+  background-color: white;
+  padding: 10px 15px;
+}
+.banner-text {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.29);
+}
+
+.banner-text h4 {
+  margin: 0;
+  text-transform: uppercase;
+  font-size: 28px;
+  font-weight: 500;
+}
+
+.banner-text h3 {
+  margin: 0;
+  font-size: 50px;
 }
